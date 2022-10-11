@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F635684F28F6068C005050E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F635684E28F6068C005050E0 /* AppDelegate.swift */; };
+		F635685128F6068C005050E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F635685028F6068C005050E0 /* SceneDelegate.swift */; };
+		F635685328F6068C005050E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F635685228F6068C005050E0 /* ViewController.swift */; };
+		F635686628F6068F005050E0 /* instagram_chloepcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F635686528F6068F005050E0 /* instagram_chloepcTests.swift */; };
+		F635687028F6068F005050E0 /* instagram_chloepcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F635686F28F6068F005050E0 /* instagram_chloepcUITests.swift */; };
+		F635687228F6068F005050E0 /* instagram_chloepcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F635687128F6068F005050E0 /* instagram_chloepcUITestsLaunchTests.swift */; };
+		F635688228F6073E005050E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F635687E28F6073D005050E0 /* Main.storyboard */; };
+		F635688328F6073E005050E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F635688028F6073E005050E0 /* LaunchScreen.storyboard */; };
+		F635688528F6074B005050E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F635688428F6074B005050E0 /* Assets.xcassets */; };
+		F635688728F6076E005050E0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F635688628F6076E005050E0 /* LoginViewController.swift */; };
+		F635688928F6078F005050E0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F635688828F6078F005050E0 /* Info.plist */; };
+		F635688B28F607B8005050E0 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F635688A28F607B8005050E0 /* PostCell.swift */; };
+		F635688D28F607CD005050E0 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F635688C28F607CD005050E0 /* CameraViewController.swift */; };
+		F635688F28F607E9005050E0 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F635688E28F607E9005050E0 /* FeedViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F635686228F6068F005050E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F635684328F6068C005050E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F635684A28F6068C005050E0;
+			remoteInfo = "instagram chloepc";
+		};
+		F635686C28F6068F005050E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F635684328F6068C005050E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F635684A28F6068C005050E0;
+			remoteInfo = "instagram chloepc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F635684B28F6068C005050E0 /* instagram chloepc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "instagram chloepc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F635684E28F6068C005050E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F635685028F6068C005050E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F635685228F6068C005050E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F635686128F6068F005050E0 /* instagram chloepcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "instagram chloepcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F635686528F6068F005050E0 /* instagram_chloepcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagram_chloepcTests.swift; sourceTree = "<group>"; };
+		F635686B28F6068F005050E0 /* instagram chloepcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "instagram chloepcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F635686F28F6068F005050E0 /* instagram_chloepcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagram_chloepcUITests.swift; sourceTree = "<group>"; };
+		F635687128F6068F005050E0 /* instagram_chloepcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagram_chloepcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F635687F28F6073D005050E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../../../../../../../Downloads/CodePath-Instagram-main/Instagram/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		F635688128F6073E005050E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../../../../../../../Downloads/CodePath-Instagram-main/Instagram/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		F635688428F6074B005050E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../../../../../../Downloads/CodePath-Instagram-main/Instagram/Assets.xcassets"; sourceTree = "<group>"; };
+		F635688628F6076E005050E0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F635688828F6078F005050E0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../../../../../../../Downloads/CodePath-Instagram-main/Instagram/Info.plist"; sourceTree = "<group>"; };
+		F635688A28F607B8005050E0 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		F635688C28F607CD005050E0 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = "../../../../../../../../../../Downloads/CodePath-Instagram-main/Instagram/CameraViewController.swift"; sourceTree = "<group>"; };
+		F635688E28F607E9005050E0 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedViewController.swift; path = "../../../../../../../../../../Downloads/CodePath-Instagram-main/Instagram/FeedViewController.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F635684828F6068C005050E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F635685E28F6068F005050E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F635686828F6068F005050E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F635684228F6068C005050E0 = {
+			isa = PBXGroup;
+			children = (
+				F635684D28F6068C005050E0 /* instagram chloepc */,
+				F635686428F6068F005050E0 /* instagram chloepcTests */,
+				F635686E28F6068F005050E0 /* instagram chloepcUITests */,
+				F635684C28F6068C005050E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F635684C28F6068C005050E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F635684B28F6068C005050E0 /* instagram chloepc.app */,
+				F635686128F6068F005050E0 /* instagram chloepcTests.xctest */,
+				F635686B28F6068F005050E0 /* instagram chloepcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F635684D28F6068C005050E0 /* instagram chloepc */ = {
+			isa = PBXGroup;
+			children = (
+				F635684E28F6068C005050E0 /* AppDelegate.swift */,
+				F635688428F6074B005050E0 /* Assets.xcassets */,
+				F635685028F6068C005050E0 /* SceneDelegate.swift */,
+				F635688C28F607CD005050E0 /* CameraViewController.swift */,
+				F635688E28F607E9005050E0 /* FeedViewController.swift */,
+				F635685228F6068C005050E0 /* ViewController.swift */,
+				F635688828F6078F005050E0 /* Info.plist */,
+				F635688628F6076E005050E0 /* LoginViewController.swift */,
+				F635688A28F607B8005050E0 /* PostCell.swift */,
+				F635688028F6073E005050E0 /* LaunchScreen.storyboard */,
+				F635687E28F6073D005050E0 /* Main.storyboard */,
+			);
+			path = "instagram chloepc";
+			sourceTree = "<group>";
+		};
+		F635686428F6068F005050E0 /* instagram chloepcTests */ = {
+			isa = PBXGroup;
+			children = (
+				F635686528F6068F005050E0 /* instagram_chloepcTests.swift */,
+			);
+			path = "instagram chloepcTests";
+			sourceTree = "<group>";
+		};
+		F635686E28F6068F005050E0 /* instagram chloepcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F635686F28F6068F005050E0 /* instagram_chloepcUITests.swift */,
+				F635687128F6068F005050E0 /* instagram_chloepcUITestsLaunchTests.swift */,
+			);
+			path = "instagram chloepcUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F635684A28F6068C005050E0 /* instagram chloepc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F635687528F6068F005050E0 /* Build configuration list for PBXNativeTarget "instagram chloepc" */;
+			buildPhases = (
+				F635684728F6068C005050E0 /* Sources */,
+				F635684828F6068C005050E0 /* Frameworks */,
+				F635684928F6068C005050E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "instagram chloepc";
+			productName = "instagram chloepc";
+			productReference = F635684B28F6068C005050E0 /* instagram chloepc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F635686028F6068F005050E0 /* instagram chloepcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F635687828F6068F005050E0 /* Build configuration list for PBXNativeTarget "instagram chloepcTests" */;
+			buildPhases = (
+				F635685D28F6068F005050E0 /* Sources */,
+				F635685E28F6068F005050E0 /* Frameworks */,
+				F635685F28F6068F005050E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F635686328F6068F005050E0 /* PBXTargetDependency */,
+			);
+			name = "instagram chloepcTests";
+			productName = "instagram chloepcTests";
+			productReference = F635686128F6068F005050E0 /* instagram chloepcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F635686A28F6068F005050E0 /* instagram chloepcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F635687B28F6068F005050E0 /* Build configuration list for PBXNativeTarget "instagram chloepcUITests" */;
+			buildPhases = (
+				F635686728F6068F005050E0 /* Sources */,
+				F635686828F6068F005050E0 /* Frameworks */,
+				F635686928F6068F005050E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F635686D28F6068F005050E0 /* PBXTargetDependency */,
+			);
+			name = "instagram chloepcUITests";
+			productName = "instagram chloepcUITests";
+			productReference = F635686B28F6068F005050E0 /* instagram chloepcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F635684328F6068C005050E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F635684A28F6068C005050E0 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					F635686028F6068F005050E0 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = F635684A28F6068C005050E0;
+					};
+					F635686A28F6068F005050E0 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = F635684A28F6068C005050E0;
+					};
+				};
+			};
+			buildConfigurationList = F635684628F6068C005050E0 /* Build configuration list for PBXProject "instagram chloepc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F635684228F6068C005050E0;
+			productRefGroup = F635684C28F6068C005050E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F635684A28F6068C005050E0 /* instagram chloepc */,
+				F635686028F6068F005050E0 /* instagram chloepcTests */,
+				F635686A28F6068F005050E0 /* instagram chloepcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F635684928F6068C005050E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F635688928F6078F005050E0 /* Info.plist in Resources */,
+				F635688328F6073E005050E0 /* LaunchScreen.storyboard in Resources */,
+				F635688528F6074B005050E0 /* Assets.xcassets in Resources */,
+				F635688228F6073E005050E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F635685F28F6068F005050E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F635686928F6068F005050E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F635684728F6068C005050E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F635688728F6076E005050E0 /* LoginViewController.swift in Sources */,
+				F635685328F6068C005050E0 /* ViewController.swift in Sources */,
+				F635684F28F6068C005050E0 /* AppDelegate.swift in Sources */,
+				F635685128F6068C005050E0 /* SceneDelegate.swift in Sources */,
+				F635688B28F607B8005050E0 /* PostCell.swift in Sources */,
+				F635688D28F607CD005050E0 /* CameraViewController.swift in Sources */,
+				F635688F28F607E9005050E0 /* FeedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F635685D28F6068F005050E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F635686628F6068F005050E0 /* instagram_chloepcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F635686728F6068F005050E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F635687228F6068F005050E0 /* instagram_chloepcUITestsLaunchTests.swift in Sources */,
+				F635687028F6068F005050E0 /* instagram_chloepcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F635686328F6068F005050E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F635684A28F6068C005050E0 /* instagram chloepc */;
+			targetProxy = F635686228F6068F005050E0 /* PBXContainerItemProxy */;
+		};
+		F635686D28F6068F005050E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F635684A28F6068C005050E0 /* instagram chloepc */;
+			targetProxy = F635686C28F6068F005050E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F635687E28F6073D005050E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F635687F28F6073D005050E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F635688028F6073E005050E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F635688128F6073E005050E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F635687328F6068F005050E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F635687428F6068F005050E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F635687628F6068F005050E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FJA3GK6MQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "instagram chloepc/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "proj1codepath..instagram-chloepc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F635687728F6068F005050E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FJA3GK6MQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "instagram chloepc/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "proj1codepath..instagram-chloepc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F635687928F6068F005050E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FJA3GK6MQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "proj1codepath..instagram-chloepcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instagram chloepc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/instagram chloepc";
+			};
+			name = Debug;
+		};
+		F635687A28F6068F005050E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FJA3GK6MQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "proj1codepath..instagram-chloepcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instagram chloepc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/instagram chloepc";
+			};
+			name = Release;
+		};
+		F635687C28F6068F005050E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FJA3GK6MQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "proj1codepath..instagram-chloepcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "instagram chloepc";
+			};
+			name = Debug;
+		};
+		F635687D28F6068F005050E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FJA3GK6MQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "proj1codepath..instagram-chloepcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "instagram chloepc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F635684628F6068C005050E0 /* Build configuration list for PBXProject "instagram chloepc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F635687328F6068F005050E0 /* Debug */,
+				F635687428F6068F005050E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F635687528F6068F005050E0 /* Build configuration list for PBXNativeTarget "instagram chloepc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F635687628F6068F005050E0 /* Debug */,
+				F635687728F6068F005050E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F635687828F6068F005050E0 /* Build configuration list for PBXNativeTarget "instagram chloepcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F635687928F6068F005050E0 /* Debug */,
+				F635687A28F6068F005050E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F635687B28F6068F005050E0 /* Build configuration list for PBXNativeTarget "instagram chloepcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F635687C28F6068F005050E0 /* Debug */,
+				F635687D28F6068F005050E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F635684328F6068C005050E0 /* Project object */;
+}
