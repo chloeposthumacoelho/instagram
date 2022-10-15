@@ -1,8 +1,6 @@
 # instagram
 
-https://giphy.com/gifs/7UBdIaeAGYRtQq7WQE
-
-https://giphy.com/gifs/7UBdIaeAGYRtQq7WQE
+https://media.giphy.com/media/VHc2I91ZOEw4qRgNty/giphy.gif
 
 x User sees app icon in home screen and styled launch screen.
 x User can sign up to create a new account.
